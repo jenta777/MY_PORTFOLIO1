@@ -17,6 +17,9 @@ export interface Service {
   description: string;
   icon: LucideIcon;
   priceStart?: string;
+  longDescription?: string;
+  features?: string[];
+  tools?: string[];
 }
 
 export interface Skill {
